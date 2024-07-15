@@ -6,6 +6,16 @@ forme :</p>
 
 $number = 8;
 
+echo "boucle “for”:<br>";
+
 for($i = 1; $i <= 10; $i++){
     echo "$i x $number = ", $i*$number, "<br>";
+}
+
+echo "<br>boucle “while”:<br>";
+
+$j = 1;
+while($j <= 10){
+    echo "$j x $number = ", $j*$number, "<br>";
+    $j++;
 }
