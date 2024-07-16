@@ -24,7 +24,6 @@ $list = [
 // switch()
 
 
-
 foreach($list as $name => $language){
     switch($language){
         case("FRA"):
