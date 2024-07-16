@@ -5,5 +5,5 @@ Attention, la valeur générée devra être arrondie à 2 décimales.</p>
 <?php
 
 $valeurFR = 100;
-$valeurEUR = round($valeurFR / 6.5596, 2);
+$valeurEUR = number_format($valeurFR / 6.5596, 2);
 echo $valeurFR, " francs français valent aujourd'hui (en 2024) ", $valeurEUR, " euros.";

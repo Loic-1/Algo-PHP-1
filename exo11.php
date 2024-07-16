@@ -6,10 +6,10 @@ d’afficher le nombre de marques de voitures présentes dans le tableau.
 <h2>Résultat</h2>
 <?php
 
-$arrayCars = array(" Peugeot ", " Renault ", " BMW ", " Mercedes ");
+$arrayCars = [" Peugeot ", " Renault ", " BMW ", " Mercedes "];
 $nbBrands = count($arrayCars);
 
 echo "Il y a $nbBrands marques de voitures dans le tableau :<br>";
-for($i = 0; $i < $nbBrands; $i++){
-    echo $arrayCars[$i], "<br>";
+foreach($arrayCars as $brand){
+    echo $brand."<br>";
 }

@@ -5,13 +5,12 @@ coefficient). Elle devra être affichée avec 2 décimales.
 <h2>Résultat</h2>
 <?php
 
-$notes = array(10, 12, 8, 19, 3, 16, 11, 13, 9);
-$somme = 0;
+$notes = [10, 12, 8, 19, 3, 16, 11, 13, 9];
+$somme = array_sum($notes);
 
 echo "Les notes obtenues par l’élève sont : ";
 
 foreach($notes as $note){
-    $somme += $note;
     echo "$note ";//1 foreach au lieu de 2
 }
 

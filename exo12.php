@@ -15,6 +15,16 @@ $list = [
     "ANGLAIS" => "ENG"
 ];
 
+// $salutations = [
+//     "FRA" => "Salut ",
+//     "ESP" => "Hola ",
+//     "ENG" => "Hello"
+// ];
+
+// switch()
+
+
+
 foreach($list as $name => $language){
     switch($language){
         case("FRA"):

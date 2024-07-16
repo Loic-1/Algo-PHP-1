@@ -6,16 +6,17 @@
 $age = 8;
 
 switch($age){
-    case($age > 5 && $age < 8):
-        echo "L’enfant qui a $age ans appartient à la catégorie « Poussin »";
-        break;
-    case($age > 7 && $age < 10):
-        echo "L’enfant qui a $age ans appartient à la catégorie « Pupille »";
-        break;
-    case($age > 9 && $age < 12):
-        echo "L’enfant qui a $age ans appartient à la catégorie « Minime »";
-        break;
-    case($age > 11):
+    case($age >= 12):
         echo "L’enfant qui a $age ans appartient à la catégorie « Cadet »";
         break;
+    case($age >= 10):
+        echo "L’enfant qui a $age ans appartient à la catégorie « Minime »";
+        break;
+    case($age >= 8):
+        echo "L’enfant qui a $age ans appartient à la catégorie « Pupille »";
+        break;
+    case($age >= 6):
+        echo "L’enfant qui a $age ans appartient à la catégorie « Poussin »";
+        break;
+    
 }
